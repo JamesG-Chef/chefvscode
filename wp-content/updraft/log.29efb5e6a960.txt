@@ -1,0 +1,181 @@
+0000.002 (0) Opened log file at time: Wed, 12 Aug 2020 15:27:30 +0000 on http://www.chefvscode.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.5 PHP: 7.2.31 (cgi-fcgi, Linux sweb18.hi.local 2.6.32-754.29.1.el6.x86_64 #1 SMP Mon Apr 27 15:30:33 UTC 2020 x86_64) MySQL: 10.2.16-MariaDB WPLANG: en_GB Server: Apache/2.4.41 (Unix) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.4M | 38M) multisite: N openssl: OpenSSL 1.0.1e 11 Feb 2013 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 6937728 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.011 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.014 (0) Semaphore (fd, wp_options) being initialised
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2020-08-12 15:27:30
+0000.021 (0) Semaphore lock (fd) complete
+0000.025 (0) Backup run: resumption=0, nonce=29efb5e6a960, file_nonce=29efb5e6a960 begun at=1597246050 (0s ago), job type=backup
+0000.027 (0) Scheduling a resumption (1) after 300 seconds (1597246350) in case this run gets aborted
+0000.063 (0) Checking if we have a zip executable available
+0000.064 (0) Testing: /usr/bin/zip
+0000.077 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.078 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.080 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.082 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.083 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.111 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.202 (0) Working binary zip found: /usr/bin/zip
+0000.206 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.208 (0) Creation of backups of directories: beginning
+0000.213 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.790 (0) Total entities for the zip file: 548 directories, 3007 files (0 skipped as non-modified), 44.3 MB
+0001.842 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.894 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.933 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.972 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.008 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.010 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.3 MB, 3007 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.217 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: size is now: 4.30 MB
+0005.293 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 600 files added (on-disk size: 4438.3 KB)
+0005.394 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 700 files added (on-disk size: 4438.3 KB)
+0005.517 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 800 files added (on-disk size: 4438.3 KB)
+0005.612 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 900 files added (on-disk size: 4438.3 KB)
+0005.696 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1000 files added (on-disk size: 4438.3 KB)
+0005.698 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 3007 files batched, 501 (1002) added so far); re-opening (prior size: 4438.3 KB)
+0007.855 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: size is now: 5.40 MB
+0007.935 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1100 files added (on-disk size: 5530.8 KB)
+0008.000 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1200 files added (on-disk size: 5530.8 KB)
+0008.079 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1300 files added (on-disk size: 5530.8 KB)
+0008.147 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1400 files added (on-disk size: 5530.8 KB)
+0008.219 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1500 files added (on-disk size: 5530.8 KB)
+0008.222 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 3007 files batched, 501 (1503) added so far); re-opening (prior size: 5530.8 KB)
+0010.384 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: size is now: 6.70 MB
+0010.434 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1600 files added (on-disk size: 6906.9 KB)
+0010.495 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1700 files added (on-disk size: 6906.9 KB)
+0010.568 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1800 files added (on-disk size: 6906.9 KB)
+0010.623 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 1900 files added (on-disk size: 6906.9 KB)
+0010.693 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2000 files added (on-disk size: 6906.9 KB)
+0010.698 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 3007 files batched, 501 (2004) added so far); re-opening (prior size: 6906.9 KB)
+0011.719 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2100 files added (on-disk size: 7676.9 KB)
+0011.786 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2200 files added (on-disk size: 7676.9 KB)
+0011.836 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2300 files added (on-disk size: 7676.9 KB)
+0011.892 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2400 files added (on-disk size: 7676.9 KB)
+0011.959 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2500 files added (on-disk size: 7676.9 KB)
+0011.963 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.4 MB, 3007 files batched, 501 (2505) added so far); re-opening (prior size: 7676.9 KB)
+0012.726 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2600 files added (on-disk size: 8800.7 KB)
+0012.796 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2700 files added (on-disk size: 8800.7 KB)
+0012.853 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2800 files added (on-disk size: 8800.7 KB)
+0012.908 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 2900 files added (on-disk size: 8800.7 KB)
+0012.964 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: 3000 files added (on-disk size: 8800.7 KB)
+0012.969 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.6 MB, 3007 files batched, 501 (3006) added so far); re-opening (prior size: 8800.7 KB)
+0014.788 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip.tmp: size is now: 14.40 MB
+0015.344 (0) Created plugins zip (0) - 14770.3 KB in 15.1 s (976.5 KB/s) (sha1: 305c7f66e8baf7245b8e4e33a8c42b877a518e9b, sha256: c2ce545108a22a4b5cffacc7d3f7e313e3da5cfa642ef027d95ffa8765e995ae)
+0015.352 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.379 (0) Total entities for the zip file: 13 directories, 32 files (0 skipped as non-modified), 0.8 MB
+0015.592 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-themes.zip.tmp: size is now: 0.60 MB
+0015.630 (0) Created themes zip (0) - 653.5 KB in 0.3 s (2382.7 KB/s) (sha1: 5d4ced9a7267b7fdabab751be73b72f0a5a49ffa, sha256: d8400a16832fea9e15693c0a38347dfa6e51e30eb307fce383c041527cd76cbd)
+0015.636 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0015.638 (0) Looking for candidates to backup in: /home/cluster-sites/5/c/chefvscode.com/public_html/wp-content/uploads
+0015.640 (0) finding files: 2020: adding to list (1)
+0015.641 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.689 (0) Total entities for the zip file: 4 directories, 129 files (0 skipped as non-modified), 25.5 MB
+0015.728 (0) Zip: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.739 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 129 files batched, 124 (124) added so far); re-opening (prior size: 0 KB)
+0016.818 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-uploads.zip.tmp: size is now: 25.00 MB
+0016.821 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 15158.8 KB/s)
+0016.823 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6888198852539, normalised_time=1.6887857415602, max_time=16.820611953735, data points known=1, old_max_bytes=26214400, new_max_bytes=156660104)
+0017.804 (0) Created uploads zip (0) - 26120.7 KB in 2.2 s (12103.9 KB/s) (sha1: ef5cf6d6db8341356b15a80f19874d7268d4cb8a, sha256: 4e61769748f7df76caa862cc4a5163a9a8f91e86ef0e56fb87c26f245a023f47)
+0017.817 (0) Beginning backup of other directories found in the content directory (index: 0)
+0017.818 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0017.819 (0) Looking for candidates to backup in: /home/cluster-sites/5/c/chefvscode.com/public_html/wp-content
+0017.827 (0) finding files: upgrade: skipping: excluded by options
+0017.828 (0) finding files: plugins: skipping: this is the plugins directory
+0017.829 (0) finding files: updraft: skipping: this is the updraft directory
+0017.830 (0) finding files: index.php: adding to list (1)
+0017.832 (0) finding files: themes: skipping: this is the themes directory
+0017.833 (0) finding files: uploads: skipping: this is the uploads directory
+0017.834 (0) finding files: languages: adding to list (2)
+0017.887 (0) Total entities for the zip file: 3 directories, 81 files (0 skipped as non-modified), 3.7 MB
+0018.280 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-others.zip.tmp: size is now: 0.90 MB
+0018.307 (0) Created others zip (0) - 921.6 KB in 0.5 s (1963.9 KB/s) (sha1: 2acba4189f3f84c98621884834d8d656e99507f3, sha256: bc2515d407f6726fc15f20422cc020bbf548b698183309f350dcebdeafaac6fc)
+0018.324 (0) Saving backup status to database (elements: 8)
+0018.338 (0) Beginning creation of database dump (WordPress DB)
+0018.345 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0018.391 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1225 bytes total)
+0018.393 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.400 (0) Table wp_options: Total expected rows (approximate): 394
+0018.442 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 402 in 0.04 seconds
+0018.446 (0) Table wp_options: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_options.table.gz - 185.3 KB)
+0018.451 (0) Table wp_users: Total expected rows (approximate): 0
+0018.454 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0018.455 (0) Table wp_users: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_users.table.gz - 0.6 KB)
+0018.460 (0) Table wp_usermeta: Total expected rows (approximate): 32
+0018.463 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 39 in 0.00 seconds
+0018.465 (0) Table wp_usermeta: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_usermeta.table.gz - 1.3 KB)
+0018.471 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0018.473 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0018.475 (0) Table wp_commentmeta: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0018.480 (0) Table wp_comments: Total expected rows (approximate): 0
+0018.484 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0018.485 (0) Table wp_comments: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_comments.table.gz - 0.7 KB)
+0018.491 (0) Table wp_links: Total expected rows (approximate): 0
+0018.494 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0018.495 (0) Table wp_links: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_links.table.gz - 0.4 KB)
+0018.502 (0) Table wp_postmeta: Total expected rows (approximate): 182
+0018.507 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 266 in 0.00 seconds
+0018.535 (0) Table wp_postmeta: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_postmeta.table.gz - 5.5 KB)
+0018.543 (0) Table wp_posts: Total expected rows (approximate): 46
+0018.558 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 103 in 0.01 seconds
+0018.560 (0) Table wp_posts: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_posts.table.gz - 36.7 KB)
+0018.567 (0) Table wp_term_relationships: Total expected rows (approximate): 22
+0018.570 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 28 in 0.00 seconds
+0018.572 (0) Table wp_term_relationships: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0018.579 (0) Table wp_term_taxonomy: Total expected rows (approximate): 4
+0018.582 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 11 in 0.00 seconds
+0018.584 (0) Table wp_term_taxonomy: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0018.590 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0018.592 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0018.594 (0) Table wp_termmeta: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_termmeta.table.gz - 0.4 KB)
+0018.602 (0) Table wp_terms: Total expected rows (approximate): 4
+0018.606 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 11 in 0.00 seconds
+0018.608 (0) Table wp_terms: finishing file (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_terms.table.gz - 0.6 KB)
+0018.613 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_options.table.gz (1/12): adding to final database dump
+0018.652 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_users.table.gz (2/12): adding to final database dump
+0018.655 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0018.659 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0018.661 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0018.663 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_links.table.gz (6/12): adding to final database dump
+0018.665 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0018.668 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0018.675 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0018.677 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0018.679 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0018.681 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0018.687 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db.gz: finished writing out complete database file (0 KB)
+0018.703 (0) Total database tables backed up: 12 (backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db.gz, size: 236063, sha1: 06a6d525a478c31c7a3f10219b09bf298d14c60b, sha256: 06ce0f863a55e8a5b613acc31a279a33bfe6a5158bdc95ffbe66b2ddce85d038)
+0018.709 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0018.710 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0018.711 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0018.712 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-others.zip: others: This file has not yet been successfully uploaded: will queue
+0018.713 (0) backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db.gz: db: This file has not yet been successfully uploaded: will queue
+0018.714 (0) Saving backup history. Total backup size: 41.7 MB
+0018.717 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0018.721 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.722 (0) No remote despatch: user chose no remote backup service
+0018.723 (0) Recording as successfully uploaded: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-plugins.zip
+0018.726 (0) Recording as successfully uploaded: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-themes.zip
+0018.728 (0) Recording as successfully uploaded: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-uploads.zip
+0018.730 (0) Recording as successfully uploaded: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-others.zip
+0018.733 (0) Recording as successfully uploaded: backup_2020-08-12-1627_Chef_vs_Code_29efb5e6a960-db.gz
+0018.737 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=3
+0018.738 (0) Number of backup sets in history: 1; groups (db): 1
+0018.739 (0) Examining (for databases) backup set with group_id=0, nonce=29efb5e6a960, datestamp=1597246050 (Aug 12 2020 15:27:30)
+0018.740 (0) This backup set is the backup set just made, so will not be deleted.
+0018.740 (0) Number of backup sets in history: 1; groups (files): 1
+0018.741 (0) Examining (for files) backup set with nonce=29efb5e6a960, datestamp=1597246050 (Aug 12 2020 15:27:30)
+0018.741 (0) This backup set is the backup set just made, so will not be deleted.
+0018.742 (0) This backup set is the backup set just made, so will not be deleted.
+0018.742 (0) This backup set is the backup set just made, so will not be deleted.
+0018.742 (0) This backup set is the backup set just made, so will not be deleted.
+0018.743 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.743 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0018.746 (0) Resume backup (29efb5e6a960, 0): finish run
+0018.749 (0) Decremented the semaphore (fd) by 1
+0018.751 (0) Semaphore (fd) unlocked
+0018.752 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.757 (0) No email will/can be sent - the user has not configured an email address.
+0018.758 (0) The backup apparently succeeded and is now complete
